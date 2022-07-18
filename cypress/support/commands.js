@@ -9,8 +9,11 @@
 // ***********************************************
 //
 //
+import '@testing-library/cypress/add-commands'
 // -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
+Cypress.Commands.add('isVisible', (element) => { 
+    cy.get(element).should("be.visible");
+});
 //
 //
 // -- This is a child command --

@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 
-import { Before, Given } from "cypress-cucumber-preprocessor/steps";
+declare const Before, Given, When, Then;
 import LandingPage from "../../page-objects/LandingPage";
 import ConfigFile from "../../../config";
 
