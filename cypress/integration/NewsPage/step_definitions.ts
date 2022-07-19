@@ -19,7 +19,6 @@ Then("user is taken straight to the news page", () => {
   cy.visit("/");
   const expectedUrl = `${Cypress.config().baseUrl}` + "news";
   cy.url().should("eq", expectedUrl);
-  
 });
 
 Given("there is internet connection", () => {

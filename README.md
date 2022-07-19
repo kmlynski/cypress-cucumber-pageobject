@@ -10,8 +10,7 @@ Installed all dependencies form package.json
 ```sh
 $ npx cypress open
 ```
+
 ```sh
 $ npm run cypress
 ```
-
-

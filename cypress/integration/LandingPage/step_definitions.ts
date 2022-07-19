@@ -9,9 +9,7 @@ Before(() => {
   cy.reload();
 });
 
-Given("the user opens web site for the first time", () => {
-  
-});
+Given("the user opens web site for the first time", () => {});
 
 Then(
   "login screen with user name and password entries and login button is displayed",

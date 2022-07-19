@@ -1,6 +1,6 @@
 {
-    "compilerOptions": {
-      "types": ["cypress", "cypress-xpath"],
-      "lib": ["es2015"]
-    }
+  "compilerOptions": {
+    "types": ["cypress", "cypress-xpath"],
+    "lib": ["es2015"]
   }
+}

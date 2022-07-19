@@ -7,8 +7,7 @@ class NewsPage {
     cy.get(this.failedToLoadErrorDiv)
       .children("p")
       .should("be.visible")
-      .should('contain.text', "Failed to load news");
+      .should("contain.text", "Failed to load news");
   }
-
 }
 export default new NewsPage();

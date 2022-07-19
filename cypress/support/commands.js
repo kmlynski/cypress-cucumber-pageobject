@@ -9,10 +9,10 @@
 // ***********************************************
 //
 //
-import '@testing-library/cypress/add-commands'
+import "@testing-library/cypress/add-commands";
 // -- This is a parent command --
-Cypress.Commands.add('isVisible', (element) => { 
-    cy.get(element).should("be.visible");
+Cypress.Commands.add("isVisible", (element) => {
+  cy.get(element).should("be.visible");
 });
 //
 //
